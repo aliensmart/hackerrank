@@ -1,6 +1,6 @@
 import sys
 
-number = int(sys.stdin.readline().strip()) # same as input()
+number = int(sys.stdin.readline().strip()) # same as input()but instead it's removing the white space in the end of beginning of each entry
 dict1 = {}
 for i in range(number):
     name_number = input()
